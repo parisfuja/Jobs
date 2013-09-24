@@ -127,12 +127,12 @@ Jobs:
     # permissions granted for joining class
     permissions:
       # example node
-      aaaaaatest.node:
+      essentials.fix.hand:
         # true to give, false to revoke
         value: true
         # minimum level needed to grant permission.  Use 0 for all levels
-        level: 0
-      aaaaaatest.node2:
+        level: 2
+      essentials.item.ironaxe:
         value: true
         # Permission granted when reaching level 10
         level: 10
